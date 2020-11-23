@@ -53,3 +53,23 @@ main .main-logo{
     margin: 0 auto 20px auto;
 }
 
+main .main-input{
+width: 530px;
+margin: 0 auto;
+margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid rgb(223 225 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input-container input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
