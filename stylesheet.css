@@ -73,3 +73,55 @@ main .main-input-container{
     border: none;
     outline: none;
 }
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #646467;
+    border-color: #a7a7a9
+}
+
+main .main-input .search_icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    opacity: 0.4;
+}
+
+main .main-input .mic{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color:#2a2c30;
+    border-radius: 5px;
+    pad: 0 15px;
+    margin:0 3px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
